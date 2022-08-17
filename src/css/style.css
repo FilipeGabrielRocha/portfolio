@@ -12,7 +12,7 @@ main {
 }
 
 body {
-    background: url(../imagens/fundo-espaço-sideral.jpg) no-repeat top center fixed;
+    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center fixed;
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background: url(../imagens/frame-iphone.png) no-repeat;
+    background: url(../image/frame-iphone.png) no-repeat;
 }
 
 iframe#tela {
