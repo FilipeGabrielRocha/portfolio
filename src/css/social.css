@@ -15,7 +15,7 @@ img {
 }
 a {
     display: block;
-    background-color: darkred;
+    background-color: black;
     padding: 20px;
     text-align: center;
     font-weight: bolder;
@@ -23,5 +23,5 @@ a {
     color: white
 }
 a:hover {
-    background-color: red;
+    background-color: rgb(54, 54, 54);
 }
