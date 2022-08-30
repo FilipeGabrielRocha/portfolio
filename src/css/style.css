@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 html, body {
-    height: 100vh;
-    width: 100vw;
     background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 main {
