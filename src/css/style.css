@@ -14,7 +14,7 @@ main {
 }
 
 body {
-    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center fixed;
+    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center;
     background-size: cover;
 }
 
