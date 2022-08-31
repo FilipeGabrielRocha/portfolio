@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 html, body {
+
     background-color: black;
 }
 
@@ -9,12 +10,12 @@ body::-webkit-scrollbar {
 }
 
 main {
-    height: 90vh;
     position: relative;
+    height: 100vh;
 }
 
 body {
-    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center;
+    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center scroll;
     background-size: cover;
 }
 
@@ -26,6 +27,7 @@ section#telefone {
 
     height: 627px;
     width: 311px;
+    margin-top: 50px;
     background: url(../image/frame-iphone.png) no-repeat;
 }
 
@@ -37,13 +39,11 @@ iframe#tela {
     height: 471px;
 }
 
-nav#rede-sociais {
+section#redes-sociais {
     text-align: center;
-    vertical-align: middle;
-
 }
 
-nav#rede-sociais a img {
+section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -51,9 +51,9 @@ nav#rede-sociais a img {
     box-sizing: border-box;
 }
 
-nav#rede-sociais img:hover {
+section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.600);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
-    transition: transform 0.3s, border 0.4s;
+    transition: transform 0.3s, border 0.2s;
 }
