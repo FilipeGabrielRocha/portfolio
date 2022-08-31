@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    section#telefone {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        height: 870px;
+        width: 367px;
+        margin-top: 50px;
+        background: url(../image/frame-iphone.png) no-repeat top center;
+    }
+    
+    iframe#tela {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        width: 268px;
+        height: 471px;
+    }
+}

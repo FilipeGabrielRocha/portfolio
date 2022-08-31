@@ -15,32 +15,33 @@ main {
 }
 
 body {
-    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center scroll;
+    background: url(../image/fundo-espaço-sideral.jpg) no-repeat top center;
     background-size: cover;
 }
 
 section#telefone {
     position: absolute;
-    top: 47%;
-    left: 50%;
+    top: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
-    width: 311px;
-    margin-top: 50px;
-    background: url(../image/frame-iphone.png) no-repeat;
+    height: 527px;
+    width: 260px;
+    /* margin-top: 50px; */
+    background: url(../image/frame-iphone.png) no-repeat top center;
+    background-size: cover;
 }
 
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 267px;
-    height: 471px;
+    top: 68px;
+    left: 18px;
+    width: 225px;
+    height: 395px;
 }
 
 section#redes-sociais {
-    text-align: center;
+    text-align: right;
 }
 
 section#redes-sociais img {
