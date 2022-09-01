@@ -3,13 +3,12 @@
 @media screen and (min-width:768px) {
     section#telefone {
         position: absolute;
-        top: 55%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
     
-        height: 870px;
+        height: 630px;
         width: 367px;
-        margin-top: 50px;
         background: url(../image/frame-iphone.png) no-repeat top center;
     }
     
