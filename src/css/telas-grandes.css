@@ -33,17 +33,29 @@ body {
 }
 
 .main .projetos-container .projetos {
+    display: flex;
+    flex-direction: column;
     margin: 0px 20px;
-    display: block;
     text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 
 .main .projetos-container .projetos h2{
     font-family: var(--fonte-padrao);
+    font-size: 2.2rem;
     text-transform: uppercase;
     width: 300px;
+}
+
+.main .projetos-container .projetos .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D97E4A;
     height: 60px;
-    background-color: aqua;
+    padding: 10px 0px;
+    border-radius: 0px 0px 25px 25px;
 }
 
 .main .projetos-container .projetos a .imagem {
@@ -54,7 +66,7 @@ body {
 .main .projetos-container .projetos a .tam-imagem {
     height: 300px;
     width: 300px;
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
     transition: 0.3s;
 }
 
@@ -78,6 +90,21 @@ body {
     background-size: cover;
 }
 
+.main .projetos-container .projetos a .landing-page {
+    background: url(../image/landing-page.png) no-repeat top center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a .mini-portfolio {
+    background: url(../image/mini-portfolio.png) no-repeat top center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a .pokedex {
+    background: url(../image/pokedex.png) no-repeat top center;
+    background-size: cover;
+}
+
 .main .projetos-container .projetos a:hover .imagem {
     opacity: 0.8;
 }
@@ -85,5 +112,48 @@ body {
 /* FOOTER */
 .footer {
     grid-area: footer;
-    background-color: blueviolet;
+    background-color: #A8B8D2;
+    font-family: var(--fonte-padrao);
+    text-transform: uppercase;
+}
+
+.footer h4 {
+    text-align: center;
+    margin: 50px 0px 15px 0px;
+    font-size: 3rem;
+}
+
+.footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social a {
+    margin: 15px 25px 50px 25px;
+}
+
+.footer .social a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    height: 30px;
+    width: 30px;
+    transition: 0.3s;
+}
+
+.footer .social .fa-linkedin:hover {
+    color: #0A66C2;
+    background-color: #fff;
+}
+
+.footer .social .fa-github-square:hover {
+    color: #fff;
+    background-color: #272B33;
+}
+
+.footer .social .fa-instagram-square:hover {
+    background-image: linear-gradient(#D40297, #E3002D, #F7BA21);
+    color: #fff;
 }
