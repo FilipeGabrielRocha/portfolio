@@ -1,22 +1,89 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) {
-    section#telefone {
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    
-        height: 630px;
-        width: 367px;
-        background: url(../image/frame-iphone.png) no-repeat top center;
-    }
-    
-    iframe#tela {
-        position: relative;
-        top: 80px;
-        left: 50px;
-        width: 268px;
-        height: 471px;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+:root {
+    --fonte-padrao: 'Orbitron', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: black url(../image/fundo-espaço-sideral.jpg) no-repeat top center;
+    background-size: cover;
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-areas: "main main main main"
+                         "footer footer footer footer";
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* MAIN */
+.main {
+    grid-area: main;
+}
+
+.main .projetos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.main .projetos-container .projetos {
+    margin: 0px 20px;
+    display: block;
+    text-align: center;
+}
+
+.main .projetos-container .projetos h2{
+    font-family: var(--fonte-padrao);
+    text-transform: uppercase;
+    width: 300px;
+    height: 60px;
+    background-color: aqua;
+}
+
+.main .projetos-container .projetos a .imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.main .projetos-container .projetos a .tam-imagem {
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.main .projetos-container .projetos a .projeto-cordel {
+    background: url(../image/projeto-cordel.png) no-repeat top center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a .projeto-hundle {
+    background: url(../image/hundle-landing-page.png) no-repeat top center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a .projeto-android {
+    background: url(../image/projeto-android.png) no-repeat top center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a .meu-site {
+    background: url(../image/meu-site.png) no-repeat top center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a:hover .imagem {
+    opacity: 0.8;
+}
+
+/* FOOTER */
+.footer {
+    grid-area: footer;
+    background-color: blueviolet;
 }
