@@ -23,32 +23,36 @@ body {
 /* MAIN */
 .main {
     grid-area: main;
-}
-
-.main .projetos-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    margin: 20px 0px 20px 0px;
 }
 
-.main .projetos-container .projetos {
+.main .projetos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
+}
+
+.main .projetos {
     display: flex;
     flex-direction: column;
+    width: 300px;
     margin: 0px 20px;
     text-align: center;
     border-radius: 25px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 
-.main .projetos-container .projetos h2{
+.main .projetos h2{
     font-family: var(--fonte-padrao);
     font-size: 2.2rem;
     text-transform: uppercase;
     width: 300px;
 }
 
-.main .projetos-container .projetos .titulo {
+.main .projetos .titulo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,68 +62,73 @@ body {
     border-radius: 0px 0px 25px 25px;
 }
 
-.main .projetos-container .projetos a .imagem {
+.main .projetos a .imagem {
     width: 100%;
     height: 100%;
 }
 
-.main .projetos-container .projetos a .tam-imagem {
+.main .projetos a .tam-imagem {
     height: 300px;
     width: 300px;
     border-radius: 25px 25px 0px 0px;
     transition: 0.3s;
 }
 
-.main .projetos-container .projetos a .projeto-cordel {
+.main .projetos a .projeto-cordel {
     background: url(../image/projeto-cordel.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a .projeto-hundle {
+.main .projetos a .projeto-hundle {
     background: url(../image/hundle-landing-page.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a .projeto-android {
+.main .projetos a .projeto-android {
     background: url(../image/projeto-android.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a .meu-site {
+.main .projetos a .meu-site {
     background: url(../image/meu-site.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a .landing-page {
+.main .projetos a .landing-page {
     background: url(../image/landing-page.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a .mini-portfolio {
+.main .projetos a .mini-portfolio {
     background: url(../image/mini-portfolio.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a .pokedex {
+.main .projetos a .pokedex {
     background: url(../image/pokedex.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos-container .projetos a:hover .imagem {
+.main .projetos a:hover .imagem {
     opacity: 0.8;
 }
 
 /* FOOTER */
 .footer {
+    display: grid;
     grid-area: footer;
     background-color: #A8B8D2;
     font-family: var(--fonte-padrao);
     text-transform: uppercase;
 }
 
+.footer .footer-container {
+    margin: 28px;
+}
+
 .footer h4 {
     text-align: center;
-    margin: 50px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
     font-size: 3rem;
 }
 
@@ -130,7 +139,7 @@ body {
 }
 
 .footer .social a {
-    margin: 15px 25px 50px 25px;
+    margin: 15px 25px 15px 25px;
 }
 
 .footer .social a i {
