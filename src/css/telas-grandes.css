@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     margin: 20px 0px 20px 0px;
 }
 
@@ -35,7 +36,7 @@ body {
     grid-row-gap: 30px;
 }
 
-.main .projetos {
+.main .projetos-container .projetos {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -45,14 +46,14 @@ body {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 
-.main .projetos h2{
+.main .projetos-container .projetos h2{
     font-family: var(--fonte-padrao);
     font-size: 2.2rem;
     text-transform: uppercase;
     width: 300px;
 }
 
-.main .projetos .titulo {
+.main .projetos-container .projetos .titulo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,54 +63,54 @@ body {
     border-radius: 0px 0px 25px 25px;
 }
 
-.main .projetos a .imagem {
+.main .projetos-container .projetos a .imagem {
     width: 100%;
     height: 100%;
 }
 
-.main .projetos a .tam-imagem {
+.main .projetos-container .projetos a .tam-imagem {
     height: 300px;
     width: 300px;
     border-radius: 25px 25px 0px 0px;
     transition: 0.3s;
 }
 
-.main .projetos a .projeto-cordel {
+.main .projetos-container .projetos a .projeto-cordel {
     background: url(../image/projeto-cordel.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a .projeto-hundle {
+.main .projetos-container .projetos a .projeto-hundle {
     background: url(../image/hundle-landing-page.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a .projeto-android {
+.main .projetos-container .projetos a .projeto-android {
     background: url(../image/projeto-android.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a .meu-site {
+.main .projetos-container .projetos a .meu-site {
     background: url(../image/meu-site.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a .landing-page {
+.main .projetos-container .projetos a .landing-page {
     background: url(../image/landing-page.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a .mini-portfolio {
+.main .projetos-container .projetos a .mini-portfolio {
     background: url(../image/mini-portfolio.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a .pokedex {
+.main .projetos-container .projetos a .pokedex {
     background: url(../image/pokedex.png) no-repeat top center;
     background-size: cover;
 }
 
-.main .projetos a:hover .imagem {
+.main .projetos-container .projetos a:hover .imagem {
     opacity: 0.8;
 }
 
