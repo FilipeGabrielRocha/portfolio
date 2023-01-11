@@ -1,0 +1,24 @@
+@charset "UFT-8";
+
+@media (max-width: 1441px) {
+    .main .projetos-container .projetos {
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .main .projetos-container .projetos h2 {
+        width: 200px;
+        font-size: 1.4rem;
+    }
+
+    .main .projetos-container .projetos .titulo {
+        height: 50px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .main .projetos-container .projetos a .tam-imagem {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
