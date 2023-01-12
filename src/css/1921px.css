@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media (max-width: 1921px) {
+    .main {
+        margin: 16px 0px;
+    }
+
+    .main .projetos-container {
+    }
+
+    .main .projetos-container .projetos {
+        width: 300px;
+        border-radius: 25px;
+    }
+
+    .main .projetos-container .projetos h2 {
+        width: 300px;
+        font-size: 1.7rem;
+    }
+
+    .main .projetos-container .projetos .titulo {
+        height: 60px;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .main .projetos-container .projetos a .tam-imagem {
+        height: 300px;
+        width: 300px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .footer h4 {
+        font-size: 2.7rem;
+    }
+
+    .footer .social a {
+        margin: 15px 25px;
+    }
+
+    .footer .social a i {
+        font-size: 3.5rem;
+    }
+}
