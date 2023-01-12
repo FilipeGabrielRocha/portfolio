@@ -1,13 +1,17 @@
 @charset "UFT-8";
 
 @media (max-width: 1441px) {
+    .main {
+        margin:  15px 0px;
+    }
+
     .main .projetos-container .projetos {
-        width: 200px;
+        width: 257px;
         border-radius: 20px;
     }
 
     .main .projetos-container .projetos h2 {
-        width: 200px;
+        width: 257px;
         font-size: 1.4rem;
     }
 
@@ -17,8 +21,8 @@
     }
 
     .main .projetos-container .projetos a .tam-imagem {
-        height: 200px;
-        width: 200px;
+        height: 257px;
+        width: 257px;
         border-radius: 20px 20px 0px 0px;
     }
 }

@@ -23,7 +23,6 @@ body {
 /* MAIN */
 .main {
     grid-area: main;
-    height: 83vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +133,7 @@ body {
 }
 
 .footer .footer-container {
-    margin: 28px;
+    margin: 31px;
 }
 
 .footer h4 {
