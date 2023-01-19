@@ -110,7 +110,7 @@ body {
 }
 
 .main .projetos-container .projetos a .mini-portfolio {
-    background: url(../image/mini-portfolio.png) no-repeat top center;
+    background: url(../image/cartao-credito.jpg) no-repeat center right;
     background-size: cover;
 }
 
