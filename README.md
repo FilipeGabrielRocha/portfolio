@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 Bem-Vindo! Esse é o meu porfólio, onde contêm os projetos que considero que são os mais importantes como experiência no trabalho.
 
 Link: https://filipegabrielrocha.github.io/portfolio/
