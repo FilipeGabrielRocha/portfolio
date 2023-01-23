@@ -84,6 +84,11 @@ body {
     background-size: cover;
 }
 
+.main .projetos-container .projetos a .super-mario-bros {
+    background: url(../image/projeto-super-mario-bros.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .main .projetos-container .projetos a .projeto-cordel {
     background: url(../image/projeto-cordel.png) no-repeat top center;
     background-size: cover;
