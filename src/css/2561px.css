@@ -124,6 +124,16 @@ body {
     background-size: cover;
 }
 
+.main .projetos-container .projetos a .form-com-validacao{
+    background: url(../image/form-com-validacao.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.main .projetos-container .projetos a .mini-portfolio{
+    background: url(../image/mini-portfolio.png) no-repeat center center;
+    background-size: cover;
+}
+
 .main .projetos-container .projetos a:hover .imagem {
     opacity: 0.8;
 }
