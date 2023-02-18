@@ -139,6 +139,11 @@ body {
     background-size: cover;
 }
 
+.main .projetos-container .projetos a .github-api{
+    background: url(../image/github-api.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .main .projetos-container .projetos a:hover .imagem {
     opacity: 0.8;
 }
