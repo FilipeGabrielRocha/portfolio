@@ -144,6 +144,11 @@ body {
     background-size: cover;
 }
 
+.main .projetos-container .projetos a .projeto-page-interstellar {
+    background: url(../image/interstellar.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .main .projetos-container .projetos a:hover .imagem {
     opacity: 0.8;
 }
