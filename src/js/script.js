@@ -1,0 +1,1 @@
+alert('Status do Site: Construção')
