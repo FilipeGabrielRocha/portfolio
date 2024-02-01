@@ -1,0 +1,88 @@
+/* HEADER */
+.header {
+    height: 11vh;
+}
+
+.header .navbar {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.header .navbar .logo {
+    height: 7rem;
+}
+
+.header .navbar .list_navegation {
+    display: flex;
+    gap: 5rem;
+    margin-right: 5rem;
+}
+
+.header .navbar .list_navegation li {
+    font-size: 2.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.header .navbar .list_navegation li:hover {
+    text-shadow: 2px 3px 6px rgba(255, 255, 255, 0.65);
+}
+
+/* SECTION HOME */
+.main {
+    background: url(../img/section-home/espaco-sideral.jpg) no-repeat center;
+    background-size: cover;
+    height: calc(100vh - 15vh);
+}
+
+.main .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 11vh);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main .home .left .title {
+    font-size: 6rem;
+    color: #fff;
+    width: 35rem;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+}
+
+.main .home .left .title .developer {
+    font-size: 7rem;
+    color: #00E9F9;
+}
+
+.main .home .left .description {
+    font-size: 2rem;
+    color: #fff;
+    width: 52rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.main .home .left .btn-contact {
+    background-color: #00E9F9;
+    font-size: 1.7rem;
+    padding: 1rem 4.5rem;
+    border-radius: 5rem;
+    border: none;
+}
+
+.main .home .right .image-author {
+    background: rgb(0, 233, 249);
+    background: linear-gradient(180deg, rgba(0, 233, 249, 1) 0%, rgba(25, 170, 209, 1) 50%, rgba(50, 107, 168, 1) 100%);
+    border-radius: 50%;
+    width: 40rem;
+}
+
+/* SECTION SOBRE */
