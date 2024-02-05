@@ -26,11 +26,10 @@
     font-size: 2.2rem;
     color: #fff;
     cursor: pointer;
-    transition: all .3s ease-in-out;
 }
 
 .header .navbar .list_navegation li:hover {
-    text-shadow: 2px 3px 6px rgba(255, 255, 255, 0.65);
+    text-decoration: underline;
 }
 
 /* SECTION HOME */
@@ -163,6 +162,51 @@
 }
 
 /* SECTION HABILIDADES */
+.skill {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill .title-skill {
+    font-size: 6rem;
+    color: #00E9F9;
+    text-decoration: underline;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.skill .container-skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 5rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.skill .container-skills .container-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #326BA8;
+    color: #00E9F9;
+    width: 20rem;
+    height: 8.4rem;
+    border-radius: 1rem;
+}
+
+.skill .container-skills .container-skill .technology {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.skill .container-skills .container-skill svg,
+.skill .container-skills .container-skill .devicon-typescript-plain,
+.skill .container-skills .container-skill .devicon-ruby-plain {
+    font-size: 5rem;
+}
 
 /* SECTION PROJETOS */
 
