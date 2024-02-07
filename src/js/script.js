@@ -1,4 +1,4 @@
-// alert('Status do Site: Construção')
+alert('Status do Site: Em Desenvolvimento!')
 
 function getAge(){
     let date = new Date()
