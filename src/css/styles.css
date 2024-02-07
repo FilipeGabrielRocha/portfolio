@@ -36,7 +36,7 @@
 .main {
     background: url(../img/section-home/espaco-sideral.jpg) no-repeat center;
     background-size: cover;
-    height: calc(100vh - 11vh);
+    height: calc(100vh - 13vh);
 }
 
 .main .home {
