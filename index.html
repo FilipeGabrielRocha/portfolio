@@ -19,26 +19,36 @@
         <nav class="navbar">
             <img class="logo" src="src/img/header/logo.png" alt="Duas letras F e R em maiúsculo, o R está em cima do F, de cor ciano com bordas tecnológicas e fundo transparente">
             <ul class="list_navegation">
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Habilidades</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+                <a href="#home">
+                    <li>Início</li>
+                </a>
+                <a href="#about">
+                    <li>Sobre</li>
+                </a>
+                <a href="#skill">
+                    <li>Habilidades</li>
+                </a>
+                <a href="#projects">
+                    <li>Projetos</li>
+                </a>
+                <!-- <li>Contato</li> -->
             </ul>
         </nav>
     </header>
     <main class="main">
-        <section class="home">
+        <section class="home" id="home">
             <article class="left">
                 <h1 class="title poppins-medium"><span class="developer">Desenvolvedor</span> Front-End</h1>
                 <p class="description poppins-light">Bem-vindo(a) ao meu portfólio, onde poderá ver minhas habilidades e projetos.</p>
-                <button class="btn-contact" type="button">Contate-me</button>
+                <a href="#projects">
+                    <button class="btn-contact" type="button">Veja meus projetos</button>
+                </a>
             </article>
             <article class="right">
                 <img class="image-author" src="src/img/section-home/FilipeGabrielRocha.svg" alt="um homem de um metro e oitenta e um centímetros de altura. Meus cabelos e olhos são castanhos escuros, e uso óculos. Sou de pele branca em um fundo ciano">
             </article>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <article class="left">
                 <h2 class="title_about poppins-medium">Sobre</h2>
                 <p class="description_about">Olá, eu sou o Filipe Gabriel Rocha, um homem de um metro e oitenta e um centímetros de altura. Meus cabelos e olhos são castanhos escuros e uso óculos. Sou de pele branca e tenho interesses variados, como jogar video games, assistir séries e filmes, ler livros e por último, mas não menos importante, programar! Minha paixão pela programação começou durante a pandemia de 2020, e desde então venho estudando e aprimorando minhas habilidades nesse fascinante mundo da programação.</p>
@@ -65,7 +75,7 @@
                 </div>
             </article>
         </section>
-        <section class="skill">
+        <section class="skill" id="skill">
             <h2 class="title-skill poppins-medium">Habilidades</h2>
             <article class="container-skills">
                 <div class="container-skill">
@@ -115,6 +125,191 @@
                 <div class="container-skill">
                     <i class="fa-brands fa-python"></i>
                     <p class="technology">Python</p>
+                </div>
+            </article>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="projects-title poppins-medium">Projetos</h2>
+            <article class="container-projects">
+                <div class="container-project">
+                    <img src="src/img/section-projetos/pokedex-lib.svg" alt="Uma foto do projeto pokedex lib" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Pokedex Lib</h3>
+                        <!-- <p class="project-info poppins-light">A Pokedex Lib é uma biblioteca abrangente de Pokemon que fornece informações sobre todos os Pokemon existentes. Ela busca dados da PokeApi para exibir detalhes como nomes, tipos, números, imagens e informações extensivas sobre cada Pokemon. A biblioteca é projetada para ser responsiva em todos os tamanhos de tela, garantindo uma experiência de usuário contínua.</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/projeto-pokedex-api/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/projeto-pokedex-api" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/pagina-jogo-gta.svg" alt="Uma foto da página do da compra do jogo do GTA" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Página do jogo GTA</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/projeto-gta/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/projeto-gta" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/github-api.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">GitHub API</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/github-api/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/github-api" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/lacoos.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Laçoos</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://lacoos.tech" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/projeto-lacoos" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/cinemalib.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">CinemaLib</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="#projects">
+                                <button type="button" class="btn disable poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/projetos-filmes" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/site-mario-bros.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Site Mario Bros</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/site-mario-bros/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/site-mario-bros" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/site-hospital.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Site Hospital</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/site-hospital/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/site-hospital" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/gerenciador-de-projetos.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Gerenciador de Projetos</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="#projects">
+                                <button type="button" class="btn disable poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/planejador-projetos" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/previsao-tempo.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Previsão do Tempo</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="#projects">
+                                <button type="button" class="btn disable poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/previsao-tempo" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/filme-interstellar.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Filme Interstellar</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/page-interstellar/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/page-interstellar" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/cartao-credito.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Cartão de Crédito</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="https://filipegabrielrocha.github.io/cartao-credito/" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/cartao-credito" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-project">
+                    <img src="src/img/section-projetos/pedidos-hamburguer.svg" alt="" class="image-project">
+                    <div class="project-info">
+                        <h3 class="project-title poppins-regular">Pedidos de Hamburguer</h3>
+                        <!-- <p class="project-info poppins-light">Descrição do projeto</p> -->
+                        <div class="container-btn">
+                            <a href="#projects">
+                                <button type="button" class="btn disable poppins-semibold">Deploy</button>
+                            </a>
+                            <a href="https://github.com/FilipeGabrielRocha/pedidos-hamburguer" target="_blank">
+                                <button type="button" class="btn poppins-semibold">Repo</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>

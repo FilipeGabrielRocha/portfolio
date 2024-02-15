@@ -209,5 +209,74 @@
 }
 
 /* SECTION PROJETOS */
+.projects {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects .projects-title {
+    font-size: 6rem;
+    color: #00E9F9;
+    text-decoration: underline;
+    margin: 4rem 0;
+}
+
+.projects .container-projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+.projects .container-projects .container-project {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 38rem;
+}
+
+.projects .container-projects .container-project .image-project {
+    width: 18rem;
+    height: 18rem;
+    border: 3px solid #00E9F9;
+    border-radius: 2rem;
+}
+
+.projects .container-projects .container-project .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.projects .container-projects .container-project .project-info .project-title {
+    font-size: 2.5rem;
+    color: #fff;
+    max-width: 19rem;
+}
+
+.projects .container-projects .container-project .project-info .project-info {
+    font-size: 1.5rem;
+    color: #fff;
+    overflow-y: auto;
+    height: 6rem;
+}
+
+.projects .container-projects .container-project .project-info .container-btn .btn {
+    font-size: 1.8rem;
+    padding: .7rem 1.5rem;
+    background: rgb(0,233,249);
+    background: linear-gradient(90deg, rgba(0,233,249,1) 0%, rgba(30,157,200,1) 100%);
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.projects .container-projects .container-project .project-info .container-btn .btn.disable {
+    opacity: 0.3;
+    cursor: default;
+}
 
 /* SECTION CONTATO */
