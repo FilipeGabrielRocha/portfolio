@@ -1,8 +1,20 @@
-@media (min-width: 319px){
+@media (min-width: 319px) and (max-width: 900px){
+    body {
+        position: relative;
+    }
+
+    .header .logo {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        height: 5rem;
+    }
+
     .main {
         padding: 2rem;
         height: calc(100vh - 2vh);
     }
+
     .main .home {
         flex-direction: column;
     }
@@ -101,7 +113,7 @@
     .projects .container-projects .container-project {
         justify-content: center;
         gap: 1rem;
-        min-width: 38rem;
+        min-width: 30rem;
     }
 
     .projects .container-projects .project-info .container-btn {
@@ -129,7 +141,17 @@
 }
 
 @media (min-width: 768px){
+    .main .home {
+        flex-direction: row;
+    }
 
+    .main .home .left .title .developer {
+        font-size: 5rem;
+    }
+
+    .main .home .left .title {
+        font-size: 5rem;
+    }
 }
 
 @media (min-width: 992px){

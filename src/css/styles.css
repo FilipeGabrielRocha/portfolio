@@ -1,5 +1,11 @@
 /* HEADER */
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
     min-height: 11vh;
 }
 
@@ -8,11 +14,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 2rem 0;
 }
 
-.header .navbar .logo {
+.header .logo {
     height: 7rem;
 }
 
