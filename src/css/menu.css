@@ -107,6 +107,17 @@
     transition: 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 1200px){
+    .header {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .header .navbar .list_navegation {
+        margin-right: 0rem;
+    }
+}
+
 @media (max-width: 900px) {
     .header .navbar {
         display: block;
