@@ -1,5 +1,3 @@
-// alert('Status do Site: Em Desenvolvimento!')
-
 function getAge(){
     let date = new Date()
     let year = date.getFullYear()
