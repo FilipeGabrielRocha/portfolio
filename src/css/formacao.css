@@ -1,0 +1,125 @@
+.formacao-academica {
+    background: url(../img/section-home/espaco-sideral.jpg) no-repeat center;
+    background-size: cover;
+    padding: 6rem 2rem;
+}
+
+.formacao-academica .container-info {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formacao-academica .container-info ul {
+    list-style-type: disc;
+    padding-left: 5rem;
+    max-width: 92rem;
+}
+
+.formacao-academica .container-info ul li,
+.formacao-academica .container-info ul li strong {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.formacao-academica .container-info .title-formacao {
+    font-size: 6rem;
+    color: #00E9F9;
+    text-decoration: underline;
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+}
+
+.skill {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill .title-skill {
+    font-size: 6rem;
+    color: #00E9F9;
+    text-decoration: underline;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.skill .container-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 2.4rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.skill .container-skills .container-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #326BA8;
+    color: #00E9F9;
+    height: 8.4rem;
+    border-radius: 1rem;
+}
+
+.skill .container-skills .container-skill .technology {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.skill .container-skills .container-skill i {
+    font-size: 3rem;
+}
+
+.skill {
+    padding: 0px 20px;
+}
+
+.skill .description-skill {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .formacao-academica .container-info .title-formacao,
+    .skill .title-skill {
+        font-size: 3.8rem;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .formacao-academica .container-info ul li,
+    .formacao-academica .container-info ul li strong,
+    .skill .description-skill {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .skill .container-skills {
+        grid-template-columns: repeat(2, 1fr);
+        height: 320px;
+        overflow-y: scroll;
+        padding-bottom: 0rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .formacao-academica .container-info .title-formacao,
+    .skill .title-skill {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .formacao-academica .container-info ul li,
+    .formacao-academica .container-info ul li strong,
+    .skill .description-skill {
+        font-size: 1.6rem;
+    }
+}
