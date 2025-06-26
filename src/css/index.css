@@ -1,16 +1,20 @@
-/* SECTION HOME */
 .main {
-    background: url(../img/section-home/espaco-sideral.jpg) no-repeat center;
-    background-size: cover;
-    height: calc(100vh - 13vh);
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
 }
 
 .main .home {
+    background: url(../img/section-home/espaco-sideral.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: calc(100vh - 11vh);
-    max-width: 1200px;
+    gap: 8rem;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -49,9 +53,59 @@
     box-shadow: 0px 0px 20px 10px #1CBDF442;
 }
 
+.main .home .right {
+    width: 400px;
+    height: 400px;
+}
+
+.main .home .right .image-author {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+}
+
 .main .home .right .image-author {
     background: rgb(0, 233, 249);
     background: linear-gradient(180deg, rgba(0, 233, 249, 1) 0%, rgba(25, 170, 209, 1) 50%, rgba(50, 107, 168, 1) 100%);
     border-radius: 50%;
     width: 40rem;
+}
+
+@media screen and (max-width: 1250px){
+    .main .home {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .main .home .left,
+    .main .home .right {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .home .left .title,
+    .main .home .left .description,
+    .main .home .left .title .developer {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .main .home .left .title .developer,
+    .main .home .left .title {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .main .home .left .title .developer,
+    .main .home .left .title {
+        font-size: 4rem;
+    }
+
+    .main .home .right .image-author {
+        width: 100%;
+        max-width: 100%;
+    }
 }

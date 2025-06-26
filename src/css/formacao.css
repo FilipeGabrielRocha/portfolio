@@ -15,6 +15,10 @@
     max-width: 92rem;
 }
 
+.formacao-academica .container-info ul:first-child {
+    margin-bottom: 2.4rem;
+}
+
 .formacao-academica .container-info ul li,
 .formacao-academica .container-info ul li strong {
     font-size: 2rem;
