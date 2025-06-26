@@ -1,0 +1,104 @@
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background: url(../img/section-home/espaco-sideral.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .title-contact2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2.4rem;
+    max-width: 500px;
+}
+
+.contact .container-contact {
+    border: 3px solid #00E9F9;
+    border-radius: 2rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.contact .span-title-contact {
+    font-size: 6rem;
+    color: #00E9F9;
+}
+
+.contact .title-contact {
+    font-size: 6rem;
+    color: #fff;
+}
+
+.contact #form {
+    width: 100%;
+    height: 100%;
+}
+
+.contact #form .form-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact #form .form-group label {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: .8rem;
+}
+
+.contact #form .form-group input {
+    width: 100%;
+    min-height: 3.6rem;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem;
+}
+
+.contact #form .form-group textarea {
+    width: 100%;
+    min-height: 6rem;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem;
+}
+
+.contact #form .form-group label,
+.contact #form .form-group input,
+.contact #form .form-group textarea {
+    border-radius: .4rem;
+    border: none;
+}
+
+.contact #form #send {
+    font-size: 1.6rem;
+    padding: .8rem 1.6rem;
+    background: #00E9F9;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.contact #form #send:hover {
+    box-shadow: 0px 0px 20px 10px #1CBDF442;
+}
+
+@media screen and (max-width: 550px){
+    .contact {
+        padding: 0 2rem;
+    }
+}

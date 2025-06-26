@@ -47,8 +47,6 @@
 
 .main .home .left .btn-contact:hover {
     box-shadow: 0px 0px 20px 10px #1CBDF442;
-    -webkit-box-shadow: 0px 0px 20px 10px #1CBDF442;
-    -moz-box-shadow: 0px 0px 20px 10px #1CBDF442;
 }
 
 .main .home .right .image-author {
